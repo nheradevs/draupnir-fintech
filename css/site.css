@@ -134,6 +134,7 @@ details p{padding:0 1.25rem 1.2rem;color:var(--ink-soft)}
 .demo-note{color:var(--sage);font-size:.92rem;margin-bottom:1.2rem}
 #contacto .reveal{text-align:center}
 #contacto .demo-note{margin-left:auto;margin-right:auto}
+#contacto label{text-align:left}
 form{display:grid;gap:1.1rem;max-width:28rem;margin-inline:auto}
 form > div{display:grid;gap:.4rem}
 label{font-weight:600;font-size:.93rem}
