@@ -37,11 +37,9 @@
   var T = {
     en: {
       nav_how: "How it works", nav_features: "Features", nav_plans: "Plans", nav_faq: "FAQ", nav_cta: "Start",
-      hero_chip: "Personal finance, no fine print",
       hero_h1: "Odin's ring multiplied itself. Yours is still sitting there.",
       hero_lede: "Draupnir puts your money in order: automatic savings, every account in one view and fee alerts before the charge lands. No magic returns promised: Odin does not answer support tickets.",
-      hero_cta: "Start free", hero_cta2: "See how it works",
-      hero_tr1: "Read-only access", hero_tr2: "Encrypted in transit and at rest", hero_tr3: "Your data is not for sale",
+      hero_cta: "Start free", hero_cta2: "See how it works", hero_tr2: "Encrypted in transit and at rest", hero_tr3: "Your data is not for sale",
       hero_ph: "Dashboard with pockets and summary",
       prob_h: "You have checked your balance for years and learned nothing new.",
       prob_sub: "Five apps, four banks, zero answers. Your money is everywhere except where you make decisions.",

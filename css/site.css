@@ -60,7 +60,6 @@ header.solid{background:rgba(7,27,43,.94)}
 .btn[disabled]{opacity:.55;cursor:not-allowed;transform:none}
 .link-arrow{color:var(--sage);text-decoration:none;font-weight:600;align-self:center}
 .link-arrow:hover{text-decoration:underline}
-.chip{display:inline-block;border:1px solid var(--panel);color:var(--sage);border-radius:999px;padding:.3rem .9rem;font-size:.85rem;margin-bottom:1.2rem}
 
 /* Placeholders */
 .hero-ph,.step-ph,.card-ph{border:2px dashed var(--panel);border-radius:14px;background:var(--bg-alt);display:grid;place-items:center;color:var(--ink-soft)}
@@ -74,13 +73,9 @@ header.solid{background:rgba(7,27,43,.94)}
 .hero-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:3rem;align-items:center}
 .lede{color:var(--ink-soft);font-size:1.12rem;max-width:34rem;margin:1.2rem 0 1.8rem}
 .hero-actions{display:flex;gap:1rem;flex-wrap:wrap;align-items:center}
-.trust{list-style:none;padding:0;margin:2rem 0 0;display:flex;flex-wrap:wrap;gap:.6rem 1.4rem}
-.trust li{font-family:var(--mono);font-size:.75rem;letter-spacing:.06em;text-transform:uppercase;color:var(--sage);display:flex;align-items:center;gap:.45rem}
-.trust li::before{content:"";width:.55rem;height:.55rem;border-radius:50%;background:var(--lime)}
 
 /* Problem */
 .pains{list-style:none;padding:0;display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;margin-top:2.5rem}
-.pains li{border-left:3px solid var(--panel);padding-left:1.2rem}
 .pains h3{color:var(--ink);margin-bottom:.4rem}
 .pains p{color:var(--ink-soft);font-size:.95rem}
 
@@ -109,7 +104,7 @@ header.solid{background:rgba(7,27,43,.94)}
 
 /* Quotes */
 .quotes{display:grid;grid-template-columns:1fr 1fr;gap:1.5rem}
-.quote{border-left:3px solid var(--lime);padding:1.2rem 1.4rem;background:var(--bg-alt);border-radius:0 12px 12px 0}
+.quote{padding:1.4rem;background:var(--bg-alt);border-radius:12px}
 .quote p{font-size:1.05rem;color:var(--ink)}
 .quote footer{margin-top:.8rem;font-size:.88rem;color:var(--ink-soft)}
 .qname{font-weight:700;color:var(--sage)}
@@ -137,7 +132,9 @@ details p{padding:0 1.25rem 1.2rem;color:var(--ink-soft)}
 
 /* Contact */
 .demo-note{color:var(--sage);font-size:.92rem;margin-bottom:1.2rem}
-form{display:grid;gap:1.1rem;max-width:28rem}
+#contacto .reveal{text-align:center}
+#contacto .demo-note{margin-left:auto;margin-right:auto}
+form{display:grid;gap:1.1rem;max-width:28rem;margin-inline:auto}
 form > div{display:grid;gap:.4rem}
 label{font-weight:600;font-size:.93rem}
 input,button.wide{width:100%}
