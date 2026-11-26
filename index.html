@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Draupnir ordena tus finanzas: ahorros automáticos, todos tus bancos en una vista y alertas de comisiones. Solo lectura, cifrado y cero promesas de rentabilidad mágica.">
+<meta name="author" content="Karen Gil">
+<meta name="theme-color" content="#071b2b">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23071b2b'/%3E%3Ccircle cx='32' cy='32' r='16' fill='none' stroke='%23d2de32' stroke-width='5'/%3E%3Ccircle cx='32' cy='32' r='7' fill='none' stroke='%23a2c579' stroke-width='4'/%3E%3C/svg%3E">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Draupnir">
+<meta property="og:title" content="Draupnir | Ordena tu plata sin magia">
+<meta property="og:description" content="Ahorros automáticos, todas tus cuentas en una vista y alertas de comisiones. Solo lectura, cifrado y cero promesas mágicas.">
+<meta property="og:url" content="https://draupnir.pages.dev/">
+<meta property="og:image" content="https://draupnir.pages.dev/assets/og-image.png">
+<meta property="og:locale" content="es_ES">
+<meta property="og:locale:alternate" content="en_US">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Draupnir | Ordena tu plata sin magia">
+<meta name="twitter:description" content="Ahorros automáticos, todas tus cuentas en una vista y alertas de comisiones. Solo lectura, cifrado y cero promesas mágicas.">
+<meta name="twitter:image" content="https://draupnir.pages.dev/assets/og-image.png">
+<title>Draupnir | Ordena tu plata sin magia</title>
+<link rel="preload" href="fonts/fraunces-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/figtree-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="css/site.css">
+</head>
+<body>
+<a class="skip" href="#main">Saltar al contenido</a>
+
+<header id="topbar">
+  <div class="nav container">
+    <a class="brand" href="#top" aria-label="Draupnir, inicio">
+      <svg class="mark" viewBox="0 0 26 26" fill="none" aria-hidden="true">
+        <circle cx="13" cy="13" r="9" stroke="currentColor" stroke-width="2.6"/>
+        <circle cx="13" cy="13" r="3.4" stroke="currentColor" stroke-width="1.8" opacity=".6"/>
+      </svg>
+      <span class="wordmark">Draupnir</span>
+    </a>
+    <nav class="desktop-nav" aria-label="Navegación principal">
+      <ul>
+        <li><a href="#como-funciona" data-i18n="nav_how">Cómo funciona</a></li>
+        <li><a href="#ventajas" data-i18n="nav_features">Ventajas</a></li>
+        <li><a href="#planes" data-i18n="nav_plans">Planes</a></li>
+        <li><a href="#faq" data-i18n="nav_faq">FAQ</a></li>
+      </ul>
+    </nav>
+    <div class="nav-side">
+      <button class="lang" id="langBtn" aria-label="Switch to English">EN</button>
+      <a class="btn small" href="#contacto" data-i18n="nav_cta">Empezar</a>
+      <button class="burger" id="burger" aria-expanded="false" aria-controls="mobile-menu" aria-label="Abrir menú">
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+    </div>
+  </div>
+  <div class="mobile-menu" id="mobile-menu">
+    <ul>
+      <li><a href="#como-funciona" data-i18n="nav_how">Cómo funciona</a></li>
+      <li><a href="#ventajas" data-i18n="nav_features">Ventajas</a></li>
+      <li><a href="#planes" data-i18n="nav_plans">Planes</a></li>
+      <li><a href="#faq" data-i18n="nav_faq">FAQ</a></li>
+      <li><a href="#contacto" data-i18n="nav_cta">Empezar</a></li>
+    </ul>
+  </div>
+</header>
+
+<main id="main">
+  <!-- HERO -->
+  <section class="hero container" id="top">
+    <div class="hero-grid">
+      <div class="hero-copy reveal in">
+        <span class="chip" data-i18n="hero_chip">Finanzas personales, sin letra chica</span>
+        <h1 data-i18n="hero_h1">El anillo de Odín se multiplicaba solo. El tuyo todavía no.</h1>
+        <p class="lede" data-i18n="hero_lede">Draupnir ordena tu plata: ahorros automáticos, todas tus cuentas en una vista y alertas de comisiones antes de que te las cobren. Sin promesas de rentabilidad mágica: Odin no responde tickets.</p>
+        <div class="hero-actions">
+          <a class="btn" href="#contacto" data-i18n="hero_cta">Empezar gratis</a>
+          <a class="link-arrow" href="#como-funciona" data-i18n="hero_cta2">Ver cómo funciona</a>
+        </div>
+        <ul class="trust">
+          <li data-i18n="hero_tr1">Acceso de solo lectura</li>
+          <li data-i18n="hero_tr2">Cifrado en tránsito y en reposo</li>
+          <li data-i18n="hero_tr3">Tus datos no se venden</li>
+        </ul>
+      </div>
+      <div class="hero-ph reveal in" role="img" aria-label="Espacio reservado: captura del dashboard de Draupnir con bolsillos de ahorro y resumen de cuentas">
+        <span class="ph-label">IMG 01 · <span data-i18n="hero_ph">Dashboard con bolsillos y resumen</span></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROBLEMA -->
+  <section class="container section" id="problema">
+    <div class="reveal">
+      <h2 data-i18n="prob_h">Revisas el saldo hace años y no aprendiste nada nuevo.</h2>
+      <p class="sub" data-i18n="prob_sub">Cinco apps, cuatro bancos, cero respuestas. El dinero está en todas partes menos donde tomás decisiones.</p>
+      <ul class="pains">
+        <li><h3 data-i18n="p1h">Comisiones que aparecen cuando miras para otro lado</h3><p data-i18n="p1p">El banco siempre encuentra la forma. Tú también puedes: enterarte antes.</p></li>
+        <li><h3 data-i18n="p2h">Ahorros que duran hasta el próximo finde</h3><p data-i18n="p2p">Separar plata a mano es una promesa que rompés sin querer un martes.</p></li>
+        <li><h3 data-i18n="p3h">La foto completa no existe</h3><p data-i18n="p3p">Nadie suma sueldo, tarjeta, billetera virtual y ese plan que olvidaste que tenías.</p></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- COMO FUNCIONA -->
+  <section class="container section" id="como-funciona">
+    <div class="reveal">
+      <h2 data-i18n="how_h">Tres pasos. Ninguno es mágico.</h2>
+    </div>
+    <ol class="steps">
+      <li class="step reveal">
+        <div class="step-ph" role="img" aria-label="Espacio reservado: pantalla de conexión de cuentas con permisos de solo lectura">
+          <span class="ph-label">IMG 02 · <span data-i18n="how_ph1">Conexión de cuentas</span></span>
+        </div>
+        <div class="step-copy">
+          <span class="num">01</span>
+          <h3 data-i18n="s1h">Conecta tus cuentas</h3>
+          <p data-i18n="s1p">Solo lectura, cifrado y sin acceso a transferir. Si alguien te promete lo contrario, corre.</p>
+        </div>
+      </li>
+      <li class="step flip reveal">
+        <div class="step-ph" role="img" aria-label="Espacio reservado: pantalla de configuración de reglas de ahorro automático">
+          <span class="ph-label">IMG 03 · <span data-i18n="how_ph2">Reglas de ahorro</span></span>
+        </div>
+        <div class="step-copy">
+          <span class="num">02</span>
+          <h3 data-i18n="s2h">Defines reglas</h3>
+          <p data-i18n="s2p">Redondeos, porcentajes, fechas fijas. Diez segundos de disciplina hoy ahorran un mes de arrepentimiento.</p>
+        </div>
+      </li>
+      <li class="step reveal">
+        <div class="step-ph" role="img" aria-label="Espacio reservado: resumen semanal con bolsillos, alertas y metas">
+          <span class="ph-label">IMG 04 · <span data-i18n="how_ph3">Resumen semanal</span></span>
+        </div>
+        <div class="step-copy">
+          <span class="num">03</span>
+          <h3 data-i18n="s3h">El dinero se ordena solo</h3>
+          <p data-i18n="s3p">Bolsillos, alertas y un resumen semanal que se lee en un café. Sin gráficos que necesiten un doctorado.</p>
+        </div>
+      </li>
+    </ol>
+  </section>
+
+  <!-- VENTAJAS -->
+  <section class="container section" id="ventajas">
+    <div class="reveal">
+      <h2 data-i18n="feat_h">Cuatro cosas que sí hacemos. Las mágicas, no.</h2>
+    </div>
+    <div class="cards">
+      <article class="card reveal">
+        <div class="card-ph" role="img" aria-label="Espacio reservado: ilustración de bolsillos de ahorro automáticos"><span class="ph-label">IMG 05</span></div>
+        <h3 data-i18n="f1h">Bolsillos automáticos</h3>
+        <p data-i18n="f1p">Separas para viajes, imprevistos y esa cena que te debés desde 2019.</p>
+      </article>
+      <article class="card reveal">
+        <div class="card-ph" role="img" aria-label="Espacio reservado: ilustración de múltiples cuentas en una vista"><span class="ph-label">IMG 06</span></div>
+        <h3 data-i18n="f2h">Una sola vista</h3>
+        <p data-i18n="f2p">Todos tus bancos en una pantalla. Sí, también ese que usas solo para la billetera virtual.</p>
+      </article>
+      <article class="card reveal">
+        <div class="card-ph" role="img" aria-label="Espacio reservado: ilustración de alerta de comisión entrante"><span class="ph-label">IMG 07</span></div>
+        <h3 data-i18n="f3h">Alertas de comisiones</h3>
+        <p data-i18n="f3p">Te avisamos antes de que el banco te avise con un cargo.</p>
+      </article>
+      <article class="card reveal">
+        <div class="card-ph" role="img" aria-label="Espacio reservado: ilustración de metas con fecha y progreso"><span class="ph-label">IMG 08</span></div>
+        <h3 data-i18n="f4h">Plan de metas</h3>
+        <p data-i18n="f4p">Fijas un número y una fecha. El resto es disciplina, que eso no lo programamos nosotros.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <section class="container section stats-band reveal">
+    <h2 class="sr-only" data-i18n="stats_h">Números del producto</h2>
+    <dl>
+      <div><dt data-i18n="st1">Cuentas promedio conectadas</dt><dd>4</dd></div>
+      <div><dt data-i18n="st2">Configurar una regla</dt><dd>12 s</dd></div>
+      <div><dt data-i18n="st3">Acceso a tu plata</dt><dd>0%</dd></div>
+      <div><dt data-i18n="st4">Promesas de rentabilidad</dt><dd>0</dd></div>
+    </dl>
+    <p class="stats-note" data-i18n="stats_note">Datos ilustrativos de esta demo.</p>
+  </section>
+
+  <!-- OPINIONES -->
+  <section class="container section" id="opiniones">
+    <div class="reveal">
+      <h2 data-i18n="tst_h">Lo que dicen (en esta demo, personas inventadas).</h2>
+      <div class="quotes">
+        <blockquote class="quote">
+          <p data-i18n="q1">Dejé de pelear con el homebanking. Ahora peleo con mis impulsos, que es una pelea distinta.</p>
+          <footer><span class="qname">R. Quiroga</span> · <span data-i18n="q1r">Diseñadora</span></footer>
+        </blockquote>
+        <blockquote class="quote">
+          <p data-i18n="q2">La alerta de comisión me salvó de una suscripción zombi. Le tengo respeto.</p>
+          <footer><span class="qname">M. Arce</span> · <span data-i18n="q2r">Programador</span></footer>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- PLANES -->
+  <section class="container section" id="planes">
+    <div class="reveal">
+      <h2 data-i18n="plans_h">Elige tu clase social.</h2>
+      <p class="sub" data-i18n="plans_sub">En la sociedad nórdica había tres. En el banking tradicional, pagas como en la primera sin ser de ninguna.</p>
+    </div>
+    <div class="plans reveal">
+      <article class="plan">
+        <h3>Karla</h3>
+        <p class="plan-for" data-i18n="pl1">Para los que todavía pagan comisiones como si fuera 1998.</p>
+        <p class="price"><span class="tbd">[PRECIO POR DEFINIR]</span></p>
+        <ul>
+          <li data-i18n="pl1a">2 cuentas conectadas</li>
+          <li data-i18n="pl1b">1 bolsillo de ahorro</li>
+          <li data-i18n="pl1c">Alertas básicas</li>
+        </ul>
+        <button class="btn ghost wide" type="button" disabled aria-disabled="true" data-i18n="pl_cta">Reservar lugar</button>
+      </article>
+      <article class="plan featured">
+        <p class="badge" data-i18n="pl_badge">Recomendado</p>
+        <h3>Karl</h3>
+        <p class="plan-for" data-i18n="pl2">Hombre libre, en teoría. Con sus finanzas, en la práctica.</p>
+        <p class="price"><span class="tbd">[PRECIO POR DEFINIR]</span></p>
+        <ul>
+          <li data-i18n="pl2a">Cuentas ilimitadas</li>
+          <li data-i18n="pl2b">Bolsillos y metas sin tope</li>
+          <li data-i18n="pl2c">Alertas de comisiones en tiempo real</li>
+        </ul>
+        <button class="btn wide" type="button" disabled aria-disabled="true" data-i18n="pl_cta">Reservar lugar</button>
+      </article>
+      <article class="plan">
+        <h3>Jarl</h3>
+        <p class="plan-for" data-i18n="pl3">Para familias o equipos que comparten gastos y discuten menos.</p>
+        <p class="price"><span class="tbd">[PRECIO POR DEFINIR]</span></p>
+        <ul>
+          <li data-i18n="pl3a">Todo lo de Karl</li>
+          <li data-i18n="pl3b">Hasta 5 personas</li>
+          <li data-i18n="pl3c">Reportes compartidos</li>
+        </ul>
+        <button class="btn ghost wide" type="button" disabled aria-disabled="true" data-i18n="pl_cta">Reservar lugar</button>
+      </article>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="container section" id="faq">
+    <div class="faq-grid reveal">
+      <h2 data-i18n="faq_h">Preguntas</h2>
+      <div>
+        <details open><summary data-i18n="fq1">¿Garantizan rentabilidad?</summary><p data-i18n="fa1">No. Desconfía de cualquiera que la prometa: o miente o te está vendiendo otro producto. Draupnir ordena tu plata, no adivina el futuro.</p></details>
+        <details><summary data-i18n="fq2">¿Es seguro conectar mis cuentas?</summary><p data-i18n="fa2">El acceso es de solo lectura, cifrado en tránsito y en reposo, y sin permisos de transferencia. Tus datos no se venden ni se comparten con terceros de marketing.</p></details>
+        <details><summary data-i18n="fq3">¿Funciona con cualquier banco?</summary><p data-i18n="fa3">Donde haya datos abiertos o exportación de movimientos. Los bancos que esconden su API siguen tratando al cliente como suddito.</p></details>
+        <details><summary data-i18n="fq4">¿Cuánto cuesta?</summary><p data-i18n="fa4">[Precio por definir]. Esta página es una demo de portafolio, no una tienda.</p></details>
+        <details><summary data-i18n="fq5">¿Qué pasa si quiero irme?</summary><p data-i18n="fa5">Tus datos se exportan o se borran, a tu elección, sin llamadas de retención. Los valquirios no suplican.</p></details>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section class="container section" id="contacto">
+    <div class="reveal">
+      <h2 data-i18n="ct_h">Avísanos cuando quieras empezar.</h2>
+      <p class="demo-note" data-i18n="ct_demo">Sitio de demostración: este formulario no envía datos.</p>
+      <form action="#" method="post">
+        <div><label for="em" data-i18n="ct_email">Correo</label><input id="em" name="email" type="email" autocomplete="email" disabled></div>
+        <button class="wide" type="button" disabled aria-disabled="true" data-i18n="ct_cta">Avisarme</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- CTA FINAL -->
+  <section class="container section final reveal">
+    <h2 data-i18n="fin_h">El anillo de Odín era ficción. El interés compuesto, no.</h2>
+    <p data-i18n="fin_p">Empieza por ordenar. Lo demás se llama disciplina, y esa no viene en la app.</p>
+    <a class="btn" href="#contacto" data-i18n="fin_cta">Empezar gratis</a>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p class="copyright">© 2026 Draupnir. <span data-i18n="ft_rights">Todos los derechos reservados.</span></p>
+    <p class="credit-line"><span data-i18n="ft_credit1">Sitio hecho por Karen Gil</span> · <a href="https://nheradev.com" target="_blank" rel="noopener">nheradev.com</a> · <span data-i18n="ft_credit2">Parte de mi portafolio</span></p>
+    <p class="credit-line demo" data-i18n="ft_demo">Página de demostración para portafolio. Ningún dato es recogido ni enviado.</p>
+  </div>
+</footer>
+<script src="js/main.js" defer></script>
+</body>
+</html>
