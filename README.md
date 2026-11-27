@@ -1,25 +1,24 @@
-# Draupnir | Personal finance landing (portfolio case)
+# Draupnir
 
-Single-page landing for a fictional personal-finance app. Pure HTML, CSS and JS: no frameworks, no third-party requests, no cookies.
+Responsive static portfolio landing page for Draupnir, with Spanish (`es`) as the source language and a client-side EN/ES language switcher.
 
-Brand: Draupnir, Odin's golden ring that drips eight new rings every ninth night (Prose Edda). Fitting metaphor for money that multiplies, and honest about it: the ring is fiction, compound interest is not.
+## Self-Hosted Fonts
 
-## Features
+All typography uses local `.woff2` files stored in `fonts/` with zero external requests at runtime:
 
-- Spanish default, English toggle (all strings via data-i18n)
-- Self-hosted variable fonts: Fraunces (display), Figtree (body), Space Mono (data)
-- Palettes: finance navy (#071b2b, #167d8d, #b9e4e8, #eeeeee) + money accents (#61a3ba, #ffffdd, #d2de32, #a2c579)
-- Image slots are labeled placeholders (IMG 01-08) for real product shots
-- Forms and plan buttons locked: demo site, nothing sends or collects
-- Accessibility: skip link, focus-visible, ARIA labels, prefers-reduced-motion, AA contrast
-- SEO: meta description, Open Graph, Twitter Card, robots.txt, sitemap.xml
-- Security headers via _headers (CSP, nosniff, referrer policy)
+- `fonts/fraunces-latin-opsz-normal.woff2` (Display serif: Fraunces Variable, Latin)
+- `fonts/fraunces-latin-ext-opsz-normal.woff2` (Display serif: Fraunces Variable, Latin Extended)
+- `fonts/figtree-latin-wght-normal.woff2` (Body sans: Figtree Variable, Latin)
+- `fonts/figtree-latin-ext-wght-normal.woff2` (Body sans: Figtree Variable, Latin Extended)
+- `fonts/space-mono-latin-400-normal.woff2` (Metrics mono: Space Mono 400, Latin)
+- `fonts/space-mono-latin-ext-400-normal.woff2` (Metrics mono: Space Mono 400, Latin Extended)
+- `fonts/space-mono-latin-700-normal.woff2` (Metrics mono: Space Mono 700, Latin)
+- `fonts/space-mono-latin-ext-700-normal.woff2` (Metrics mono: Space Mono 700, Latin Extended)
 
-## Deploy (Cloudflare Pages)
+## Local Preview
 
-Framework preset: None. Build command: empty. Output directory: /.
-If the project URL differs from https://draupnir.pages.dev/, update og:url, og:image, twitter:image, robots.txt and sitemap.xml.
+Serve the directory over HTTP (ES modules require an HTTP origin):
 
-## Credits
-
-Built by Karen Gil: https://nheradev.com
+```sh
+python3 -m http.server 8765 --bind 127.0.0.1
+```
