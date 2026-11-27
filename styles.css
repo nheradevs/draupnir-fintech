@@ -1061,3 +1061,39 @@
   inset: 0;
   background: linear-gradient(90deg, rgba(7, 27, 43, 0.82), rgba(7, 27, 43, 0.35) 55%, rgba(7, 27, 43, 0.62));
 }
+
+/* Cómo funciona: three step cards (right side of the split) */
+.step-cards {
+  display: grid;
+  gap: 1rem;
+  list-style: none;
+}
+
+.step-card {
+  display: flex;
+  gap: 1.1rem;
+  align-items: flex-start;
+  background: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  padding: 1.1rem 1.25rem;
+  backdrop-filter: blur(8px);
+}
+
+.step-num {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  color: var(--palette-lime);
+  padding-block-start: 0.25rem;
+}
+
+.step-card h3 {
+  font-size: 1.1rem;
+  margin-block-end: 0.25rem;
+  color: var(--palette-beige);
+}
+
+.step-card p {
+  color: var(--text-muted);
+  font-size: 0.92rem;
+}

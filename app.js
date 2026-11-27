@@ -63,7 +63,7 @@ const I18N = {
     navFaq: "FAQ",
     navCta: "Empezar",
     heroTitle: "El anillo de Odín se multiplicaba solo. El tuyo todavía no.",
-    heroTagline: "Finanzas personales, sin letra chica.",
+    heroTagline: "Tu banco reza por que no leas esto.",
     heroBody:
       "Draupnir ordena tu plata: ahorros automáticos, todas tus cuentas en una vista y alertas de comisiones antes de que te las cobren. Sin promesas de rentabilidad mágica: Odín no responde tickets.",
     heroPrimaryBtn: "Empezar gratis",
@@ -77,13 +77,18 @@ const I18N = {
     problemCard2Body: "Separar plata a mano es una promesa que rompes sin querer un martes.",
     problemCard3Title: "La foto completa no existe",
     problemCard3Body: "Nadie suma sueldo, tarjeta, billetera virtual y ese plan que olvidaste que tenías.",
-    howHeading: "Tres pasos. Ninguno es mágico.",
+    howHeading: "Tres pasos. Sin runas ni ofrendas.",
     howIntro:
       "Conectas cuentas en solo lectura, defines reglas en diez segundos y el dinero se ordena solo: bolsillos, alertas y un resumen que se lee en un café.",
-    metric1Label: "Cuentas promedio conectadas",
-    metric2Label: "Configurar una regla",
-    metric3Label: "Acceso a tu plata",
-    metric4Label: "Promesas de rentabilidad",
+    step1Title: "Conectar",
+    step1Text: "Cuentas en solo lectura, sin permisos de transferencia. Tu plata no se toca.",
+    step2Title: "Reglar",
+    step2Text: "Redondeos, porcentajes o fechas fijas. Diez segundos de disciplina, hoy.",
+    step3Title: "Ordenar",
+    step3Text: "Bolsillos, alertas y un resumen semanal que se lee en un café.",
+
+
+
     featuresHeading: "Cuatro cosas que sí hacemos. Las mágicas, no.",
     feature1Title: "Bolsillos automáticos",
     feature1Body: "Separas para viajes, imprevistos y esa cena que te debes desde 2019.",
@@ -95,7 +100,7 @@ const I18N = {
     feature4Title: "Plan de metas",
     feature4Body:
       "Fijas un número y una fecha. El resto es disciplina, que eso no lo programamos nosotros.",
-    plansHeading: "Elige tu clase social.",
+    plansHeading: "Karla, Karl y Jarl.",
     plansIntro:
       "En la sociedad nórdica había tres. En el banking tradicional pagas como en la primera sin ser de ninguna.",
     planKarlaDesc: "Para los que todavía pagan comisiones como si fuera 1998.",
@@ -128,7 +133,7 @@ const I18N = {
     faqA5:
       "Tus datos se exportan o se borran, a tu elección, sin llamadas de retención. Las valquirias no suplican.",
     footerLine1: "© 2026 Draupnir. Todos los derechos reservados.",
-    footerLine2: "Sitio hecho por Karen Gil - nheradev.com - Parte de mi portafolio",
+    footerCreditA: "Sitio hecho por Karen Gil", footerCreditB: "Parte de mi portafolio",
     footerLine3: "Página de demostración para portafolio. Ningún dato es recogido ni enviado.",
     dialogTitle: "Empieza con Draupnir",
     dialogSubtitle: "Deja tu correo y te avisamos cuando abramos registros.",
@@ -154,7 +159,7 @@ const I18N = {
     navFaq: "FAQ",
     navCta: "Get started",
     heroTitle: "Odin's ring multiplied itself. Yours is still sitting there.",
-    heroTagline: "Personal finance, no fine print.",
+    heroTagline: "Your bank hopes you never read this.",
     heroBody:
       "Draupnir puts your money in order: automatic savings, every account in one view and fee alerts before the charge lands. No magic returns promised: Odin does not answer support tickets.",
     heroPrimaryBtn: "Start free",
@@ -170,13 +175,18 @@ const I18N = {
     problemCard3Title: "The full picture does not exist",
     problemCard3Body:
       "Nobody adds up salary, card, digital wallet and that plan you forgot you had.",
-    howHeading: "Three steps. None of them magic.",
+    howHeading: "Three steps. No runes, no offerings.",
     howIntro:
       "Connect accounts in read-only mode, set rules in ten seconds, and your money organizes itself: pockets, alerts and a summary you read over one coffee.",
-    metric1Label: "Accounts connected on average",
-    metric2Label: "To set a rule",
-    metric3Label: "Access to your money",
-    metric4Label: "Returns promised",
+    step1Title: "Connect",
+    step1Text: "Accounts in read-only mode, no transfer permissions. Your money does not get touched.",
+    step2Title: "Set rules",
+    step2Text: "Rounding, percentages or fixed dates. Ten seconds of discipline, today.",
+    step3Title: "Order",
+    step3Text: "Pockets, alerts and a weekly summary you read over one coffee.",
+
+
+
     featuresHeading: "Four things we actually do. The magic ones, we do not.",
     feature1Title: "Automatic pockets",
     feature1Body:
@@ -188,7 +198,7 @@ const I18N = {
     feature3Body: "We tell you before the bank tells you with a charge.",
     feature4Title: "Goal planner",
     feature4Body: "You set a number and a date. The rest is discipline, which we cannot code.",
-    plansHeading: "Pick your social class.",
+    plansHeading: "Karla, Karl and Jarl.",
     plansIntro:
       "Norse society had three. Traditional banking charges you like the first one while you belong to none.",
     planKarlaDesc: "For people still paying fees like it is 1998.",
@@ -221,7 +231,7 @@ const I18N = {
     faqA5:
       "Your data is exported or deleted, your call, no retention phone calls. Valkyries do not beg.",
     footerLine1: "© 2026 Draupnir. All rights reserved.",
-    footerLine2: "Site built by Karen Gil - nheradev.com - Part of my portfolio",
+    footerCreditA: "Site built by Karen Gil", footerCreditB: "Part of my portfolio",
     footerLine3: "Portfolio demo page. No data is collected or sent.",
     dialogTitle: "Start with Draupnir",
     dialogSubtitle: "Leave your email and we will tell you when signups open.",
