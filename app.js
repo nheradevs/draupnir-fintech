@@ -63,7 +63,7 @@ const I18N = {
     navFaq: "FAQ",
     navCta: "Empezar",
     heroTitle: "El anillo de Odín se multiplicaba solo. El tuyo todavía no.",
-    heroTagline: "Tu banco reza por que no leas esto.",
+    heroTagline: "Esto es lo que tu banco no quiere que leas.",
     heroBody:
       "Draupnir ordena tu plata: ahorros automáticos, todas tus cuentas en una vista y alertas de comisiones antes de que te las cobren. Sin promesas de rentabilidad mágica: Odín no responde tickets.",
     heroPrimaryBtn: "Empezar gratis",
@@ -159,7 +159,7 @@ const I18N = {
     navFaq: "FAQ",
     navCta: "Get started",
     heroTitle: "Odin's ring multiplied itself. Yours is still sitting there.",
-    heroTagline: "Your bank hopes you never read this.",
+    heroTagline: "This is what your bank hopes you never read.",
     heroBody:
       "Draupnir puts your money in order: automatic savings, every account in one view and fee alerts before the charge lands. No magic returns promised: Odin does not answer support tickets.",
     heroPrimaryBtn: "Start free",
